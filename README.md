@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-"# Proyecto_Incerplass" 
-=======
-HEAD
-
-# Proyecto_Incerplas
-
-Gestor de inventario de una empresa de industria plástica
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -73,5 +64,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-14603c6c2a (Registrar nuevos productos)
->>>>>>> d77395f9e5eaab65a1d72026290c31a735eda0c4
+
+# Mi Aplicación Laravel
+
+## Instalación
+
+1. Clonar el repositorio
+2. Ejecutar `composer install`
+3. Copiar `.env.example` a `.env` y configurar la base de datos
+4. Ejecutar `php artisan key:generate`
+5. Ejecutar `php artisan migrate --seed`
+
+## Usuario Administrador
+
+Al ejecutar las migraciones con el seeder, se crea automáticamente un usuario administrador:
+
+-   Email: admin@admin.com
+-   Contraseña: admin123
+
+Si necesitas crear o actualizar el usuario administrador manualmente, puedes usar:
